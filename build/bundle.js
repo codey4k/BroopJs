@@ -46,7 +46,11 @@
 
 	"use strict";
 
-	document.write("Hola mundo");
+	function makeComponent() {
+	    console.log("funciona");
+	}
+
+	makeComponent();
 
 /***/ }
 /******/ ]);
