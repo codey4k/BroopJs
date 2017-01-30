@@ -1,0 +1,12 @@
+Sintaxis para crear formas
+
+import Brop from 'brop'
+
+let cuadrado = Brop.shape ({
+    square: {
+        w: 100,
+        h: 100,
+        fill: '',
+        stroke: ''
+    }
+})
